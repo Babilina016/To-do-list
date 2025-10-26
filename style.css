@@ -1,0 +1,91 @@
+/* საერთო სტილი */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  margin: 0;
+}
+
+/* კონტეინერი */
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* სათაური */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* შესატანი ველი */
+#taskInput {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #66a6ff;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+/* დამატების ღილაკი */
+#addBtn {
+  padding: 10px 15px;
+  margin-left: 5px;
+  background: #66a6ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#addBtn:hover {
+  background: #4a90e2;
+}
+
+/* ტასკების სია */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #f7f9fc;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: #eef4ff;
+}
+
+/* Delete ღილაკი */
+li button {
+  background: #ff6b6b;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+li button:hover {
+  background: #e63946;
+}
